@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  color: red;
+  font-size:40px;
+  text-align: center;
+}
+.table1{
+  tab-size: 20px;
+}
+.words{
+  font-size: 30px;
+}
+.nav{
+background: black;
+overflow: hidden;
+height:100px;
+}
+.manage{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gray;
+  color: white;
+  text-align: center;
+  
+}
+.button{
+  font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2;
+    height: 50px;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    width: 240px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25);
+    outline: 0;
+    text-transform: capitalize;
+    color:rgb(14, 5, 5);
+    background-color: blue;
+}
+.card{
+columns:1px;
+margin-top: 10%;
+
+}
